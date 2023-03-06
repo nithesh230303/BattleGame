@@ -4,6 +4,9 @@ public class BattleTime {
     public boolean setUp(String line){
         String[] attacksOnEachDay = line.split(";");
         private List<EndOfDay> endOfDays;
+        if(attacksOnEachDay.length>0){
+
+        }
     }
     public int BattleStat() {
         ValhallaWalls walls = new ValhallaWalls();

@@ -23,5 +23,9 @@ public class Main {
 //                }
 //            }
 //        }
+        BattleTime battleTime = new BattleTime();
+        if(battleTime.setUp(line)){
+            System.out.println(battleTime.BattleStat());
+        }
     }
 }
